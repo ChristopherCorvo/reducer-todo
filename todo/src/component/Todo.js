@@ -9,6 +9,7 @@ import TodoForm from './TodoForm'
 
 const TodoContainer = styled.div`
     .undone h4 {
+        text-decoration: none;
     }
 
     .done h4 {

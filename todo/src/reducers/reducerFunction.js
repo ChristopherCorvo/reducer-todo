@@ -28,7 +28,7 @@ export const reducer = (state, action) => {
         case 'TOGGLE_OFF':
             return{
                 ...state,
-                status: 'done'
+                status: 'done' ? 'done' : 'undone' // how to get it to toggle back and forth fron done to undone
             }    
         default:
             return state;
